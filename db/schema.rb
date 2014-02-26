@@ -13,10 +13,10 @@
 
 ActiveRecord::Schema.define(version: 20140224173239) do
 
-  create_table "productos", force: true do |t|
+  create_table "products", force: true do |t|
     t.string   "name"
     t.text     "description"
-    t.datetime "added"
+    t.datetime "added_at"
     t.string   "manufacturer"
     t.integer  "stock"
     t.datetime "created_at"
